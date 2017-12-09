@@ -1,0 +1,103 @@
+ {
+ 	"cars": [{
+ 			"id": 0,
+ 			"name": "Ford",
+ 			"type": "truck",
+ 			"image": "http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png",
+ 			"year": "2012",
+ 			"manufacturer": "Ford",
+ 			"model": "Ford F150",
+ 			"rating": 4
+ 		},
+ 		{
+ 			"id": 1,
+ 			"name": "Ford",
+ 			"type": "suv",
+ 			"image": "http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png",
+ 			"year": "2013",
+ 			"manufacturer": "Ford",
+ 			"model": "Ford Explorer",
+ 			"rating": 3
+ 		},
+ 		{
+ 			"id": 2,
+ 			"name": "Mercedes",
+ 			"type": "familycar",
+ 			"image": "http://www.carlogos.org/logo/Mercedes-Benz-logo-2009-1920x1080.png",
+ 			"year": "2013",
+ 			"manufacturer": "Mercedes",
+ 			"model": "Mercedes C - class",
+ 			"rating": 4
+ 		},
+ 		{
+ 			"id": 3,
+ 			"name": "Ford",
+ 			"type": "familycar",
+ 			"manufacturer": "Ford",
+ 			"model": "Ford F150",
+ 			"image": "http://www.carlogos.org/logo/Ford-logo-2003-1366x768.png",
+ 			"year": "2014",
+ 			"rating": 4
+ 		},
+ 		{
+ 			"id": 4,
+ 			"name": "Buick",
+ 			"type": "suv",
+ 			"manufacturer": "Buick",
+ 			"model": "Buick Enclave",
+ 			"image": "http://www.carlogos.org/logo/Buick-logo-2002-2560x1440.png",
+ 			"year": "2015",
+ 			"rating": 5
+ 		},
+ 		{
+ 			"id": 5,
+ 			"name": "Mercedes",
+ 			"type": "sportscar",
+ 			"manufacturer": "Mercedes",
+ 			"model": "Mercedes Sl500",
+ 			"image": "http://www.carlogos.org/logo/Mercedes-Benz-logo-2009-1920x1080.png",
+ 			"year": "2013",
+ 			"rating": 3
+ 		},
+ 		{
+ 			"id": 6,
+ 			"name": "Buick",
+ 			"type": "truck",
+ 			"manufacturer": "Buick",
+ 			"model": "Buick Enclave",
+ 			"image": "http://www.carlogos.org/logo/Buick-logo-2002-2560x1440.png",
+ 			"year": "2014",
+ 			"rating": 4
+ 		},
+ 		{
+ 			"id": 7,
+ 			"name": "Mercedes",
+ 			"type": "sportscar",
+ 			"manufacturer": "Mercedes",
+ 			"model": "Mercedes Sl500",
+ 			"image": "http://www.carlogos.org/logo/Mercedes-Benz-logo-2009-1920x1080.png",
+ 			"year": "2012",
+ 			"rating": 3
+ 		},
+ 		{
+ 			"id": 8,
+ 			"name": "Mercedes",
+ 			"type": "truck",
+ 			"manufacturer": "Mercedes",
+ 			"model": "Mercedes Sl500",
+ 			"image": "http://www.carlogos.org/logo/Mercedes-Benz-logo-2009-1920x1080.png",
+ 			"year": "2013",
+ 			"rating": 4
+ 		},
+ 		{
+ 			"id": 9,
+ 			"name": "Mercedes",
+ 			"type": "suv",
+ 			"manufacturer": "Mercedes",
+ 			"model": "Mercedes Sl500",
+ 			"image": "http://www.carlogos.org/logo/Mercedes-Benz-logo-2009-1920x1080.png",
+ 			"year": "2014",
+ 			"rating": 4
+ 		}
+ 	]
+ }
