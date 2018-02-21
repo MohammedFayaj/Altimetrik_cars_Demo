@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/m_light_gray"
+    >
+
+    <LinearLayout
+        style="@style/CardsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/spec_w"
+        android:layout_marginTop="@dimen/dp_0_5"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider_horizontal"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+                    <mmjp.fsm.ford.com.mmjp.app.components.widgets.TitleCell
+                    style="@style/TitleCell"
+                        app:iconSrc="@drawable/ic_directions_bus_black_24dp"
+                    />
+
+                <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:ignore="RtlHardcoded">
+
+                    <Button
+                        android:id="@+id/chevron"
+                        style="@style/BlueButton"
+                        android:layout_width="@dimen/dp_5_0"
+                        android:layout_height="@dimen/dp_2_5"
+                        android:layout_alignBottom="@+id/icon6"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginEnd="21dp"
+                        android:layout_marginRight="21dp"
+                        tools:ignore="ContentDescription"
+                        android:text="$3.50"/>
+
+                    <ImageView
+                        android:id="@+id/icon"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_toLeftOf="@+id/icon2"
+                        android:src="@drawable/ic_directions_bus_black_24dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/icon2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_toLeftOf="@+id/icon3"
+                        android:src="@drawable/ic_directions_bus_black_24dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/icon3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_toLeftOf="@+id/icon4"
+                        android:src="@drawable/ic_directions_bus_black_24dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/icon4"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_toLeftOf="@+id/icon5"
+                        android:src="@drawable/ic_directions_bus_black_24dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/icon5"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_toLeftOf="@+id/icon6"
+                        android:src="@drawable/ic_directions_bus_black_24dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/icon6"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_toLeftOf="@+id/chevron"
+                        android:src="@drawable/ic_directions_bus_black_24dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/middle_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_toLeftOf="@+id/icon4"
+                        android:layout_toRightOf="@+id/icon3"
+                        tools:text="34 Min" />
+                    
+                    <TextView
+                        android:id="@+id/primary_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="12dp"
+                        android:textSize="24sp"
+                        android:textColor="@color/info"
+                        android:gravity="center_vertical"
+                        android:maxLines="3"
+                        tools:text="34 Min"
+                        tools:ignore="RtlSymmetry" />
+
+                    <TextView
+                        android:id="@+id/secondary_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/primary_text"
+                        android:paddingLeft="12dp"
+                        android:gravity="center_vertical"
+                        android:maxLines="10"
+                        tools:text="(10 min Avg Walk)"
+                        tools:ignore="RtlSymmetry" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
